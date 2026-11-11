@@ -2,6 +2,9 @@
 
 A 60-second turn timer that fits inside one of those novelty "Easy" buttons. Press the button to end your turn: the next player's 60 seconds start. If time runs out, it beeps until somebody presses the button.
 
+- **Project home:** https://github.com/sbalneav/rummikub-shot-clock
+- **Illustrated overview:** https://claude.ai/artifact/5sadpqRUegUsPd4Guqu1sk (schematic, how it works and parts, in a page that's easy to read on a phone)
+
 ![Schematic](schematic/schematic.png)
 
 > **Status: rev A, not yet built or tested.** The schematic and PCB pass KiCad's design-rule check, but nobody has built a board yet. Breadboard it first, and please open an issue with what you find.
