@@ -1,0 +1,28 @@
+Ref,Qty,Value,Package / footprint,Notes
+U1 U2 U3,3,TLC555 / LMC555 / ICM7555 (3 V) or NE555 (4.5-9 V),DIP-8,Pick the chip to suit the battery (see README). U3 only needed for pulsed beep
+-,3,DIP-8 socket,DIP-8,Recommended
+R1,1,150k,Axial 1/4 W (7.62 mm pitch),
+VR1,1,250k multi-turn trimmer (Bourns 3296W-1-254),3296W,Sets turn length (about 36-97 s)
+R3,1,22R,Axial 1/4 W,Protects the button contacts
+R4,1,10k,Axial 1/4 W,
+R5,1,100k,Axial 1/4 W,
+R6,1,1k,Axial 1/4 W,
+R7,1,10k,Axial 1/4 W,
+R8,1,680R,Axial 1/4 W,
+R9,1,10R 1/4 W @ 3 V | 22R 1/2 W @ 6 V | 47R 1/2 W @ 9 V,Axial,Speaker current limit: scale with supply voltage
+R10,1,10k,Axial 1/4 W,Pulser only
+R11,1,330k,Axial 1/4 W,Pulser only
+C1,1,220uF 16 V+ electrolytic,Radial D6.3 mm P2.5 mm,Timing cap. Low-leakage type preferred
+C6,1,220uF 16 V+ electrolytic,Radial D6.3 mm P2.5 mm,Supply bulk cap
+C2 C4 C7,3,10nF ceramic,Disc P5.0 mm,C7 pulser only
+C3,1,47nF ceramic or film,Disc P5.0 mm,Sets tone pitch (~1.5 kHz)
+C5,1,1uF film,Box 7.2 x 3.5 mm P5.0 mm,Pulser only
+C8 C9 C10,3,100nF ceramic,Disc P5.0 mm,Decoupling. C10 pulser only
+Q1,1,2N3904,TO-92 (E-B-C),
+Q2,1,PN2222A or 2N4401,TO-92 (E-B-C),Check pinout: some 2N2222 parts are C-B-E
+D1,1,1N4148,DO-35,Cathode band toward the K mark
+JP1,1,1x3 pin header + jumper,2.54 mm,1-2 steady tone / 2-3 pulsed
+J1-J4,4,1x2 pin header or wire,2.54 mm,Battery / power switch / Easy Button switch / speaker
+S1,1,SPST switch,off-board,Power
+B1,1,2xAA/AAA (TLC555) or 4xAA/AAA or 9 V (NE555),off-board,See README power table
+LS1,1,8 ohm speaker,off-board,Existing Easy Button speaker

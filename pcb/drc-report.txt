@@ -1,0 +1,14 @@
+** Drc report for rummikub-shot-clock.kicad_pcb **
+** Created on 2026-11-11T15:34:14-0500 **
+
+** Found 1 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 2 spokes connected to isolated island)
+    Local override; error
+    @(100.5000 mm, 100.5000 mm): Zone [GND] on B.Cu
+    @(149.5000 mm, 136.0000 mm): PTH pad 2 [GND] of C4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 760"><style>
+.w, .c { fill: none; stroke: #1d2528; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.c { stroke-width: 2.2; }
+.thick { stroke-width: 4; }
+.ic { fill: #ffffff; stroke: #1d2528; stroke-width: 2.2; }
+.ring { fill: #ffffff; stroke: #1d2528; stroke-width: 2; }
+.dot, .fill { fill: #1d2528; }
+.acc { stroke: #d0261d; }
+.flag { fill: #fbe9e7; stroke: #d0261d; stroke-width: 1.5; }
+text { font-family: monospace; fill: #1d2528; }
+.ref { font-size: 13px; font-weight: 600; }
+.val { font-size: 13px; fill: #5d686c; }
+.acct { fill: #d0261d; }
+.pin { font-size: 10px; fill: #5d686c; }
+.pfn { font-size: 11px; fill: #5d686c; }
+.icname { font: 600 15px monospace; }
+.icpart { font-size: 12px; fill: #5d686c; }
+.plus { font-size: 15px; font-weight: 600; }
+.rail { font-size: 12px; font-weight: 600; fill: #d0261d; }
+.net { font-size: 11px; font-weight: 600; fill: #d0261d; letter-spacing: .08em; }
+.cap { font-size: 12px; font-weight: 600; letter-spacing: .08em; fill: #5d686c; }
+.flagt { font-size: 12px; font-weight: 600; fill: #d0261d; }
+
+</style><rect width="100%" height="100%" fill="#fff"/><polyline class="w" points="150,70 1140,70 1140,122"/>
+<polyline class="w" points="70,700 1140,700"/>
+<text class="rail" x="170" y="60" text-anchor="start">+V</text>
+<text class="rail" x="170" y="690" text-anchor="start">0 V</text>
+<polyline class="w" points="70,340 70,70 97,70"/>
+<circle class="ring" cx="100" cy="70" r="3.5"/><circle class="ring" cx="150" cy="70" r="3.5"/>
+<line class="c" x1="102" y1="68" x2="146" y2="50"/>
+<text class="ref" x="125" y="28" text-anchor="middle">S1</text>
+<text class="val" x="125" y="43" text-anchor="middle">on/off</text>
+<line class="c" x1="54.0" y1="340" x2="86.0" y2="340"/>
+<line class="c thick" x1="62.0" y1="348" x2="78.0" y2="348"/>
+<line class="c" x1="54.0" y1="360" x2="86.0" y2="360"/>
+<line class="c thick" x1="62.0" y1="368" x2="78.0" y2="368"/>
+<text class="plus" x="48" y="338" text-anchor="middle">+</text>
+<polyline class="w" points="70,368 70,700"/>
+<text class="ref" x="58" y="410" text-anchor="end">B1</text>
+<text class="val" x="58" y="425" text-anchor="end">3–9 V</text>
+<polyline class="w" points="150,70 150,365"/>
+<line class="c" x1="135" y1="365" x2="165" y2="365"/>
+<path class="c" d="M135 380 Q150 372 165 380"/>
+<text class="plus" x="128" y="361" text-anchor="middle">+</text>
+<polyline class="w" points="150,376 150,700"/>
+<circle class="dot" cx="150" cy="70" r="4"/>
+<circle class="dot" cx="150" cy="700" r="4"/>
+<text class="ref" x="172" y="366" text-anchor="start">C6</text>
+<text class="val" x="172" y="381" text-anchor="start">220µF</text>
+<polyline class="w" points="320,70 320,110"/>
+<polyline class="c" points="320.0,110.0 328.0,115.0 312.0,125.0 328.0,135.0 312.0,145.0 328.0,155.0 312.0,165.0 320.0,170.0"/>
+<polyline class="w" points="320,170 320,200"/>
+<polyline class="c" points="320.0,200.0 328.0,205.0 312.0,215.0 328.0,225.0 312.0,235.0 328.0,245.0 312.0,255.0 320.0,260.0"/>
+<line class="c" x1="300" y1="272" x2="340" y2="190"/>
+<polygon class="fill" points="340,190 339.6,199.8 332.5,196.3"/>
+<polyline class="w" points="320,260 320,585"/>
+<circle class="dot" cx="320" cy="70" r="4"/>
+<text class="ref" x="306" y="138" text-anchor="end">R1</text>
+<text class="val" x="306" y="153" text-anchor="end">150k</text>
+<text class="ref" x="296" y="214" text-anchor="end">VR1</text>
+<text class="val" x="296" y="229" text-anchor="end">250k trim</text>
+<polyline class="w" points="320,300 400,300"/>
+<polyline class="w" points="320,340 400,340"/>
+<circle class="dot" cx="320" cy="300" r="4"/>
+<circle class="dot" cx="320" cy="340" r="4"/>
+<circle class="dot" cx="320" cy="480" r="4"/>
+<polyline class="w" points="320,480 250,480 250,500"/>
+<polyline class="c" points="250.0,500.0 258.0,505.0 242.0,515.0 258.0,525.0 242.0,535.0 258.0,545.0 242.0,555.0 250.0,560.0"/>
+<polyline class="w" points="250,560 250,587"/>
+<circle class="ring acc" cx="250" cy="590" r="3.5"/><circle class="ring acc" cx="250" cy="640" r="3.5"/>
+<line class="c acc thick" x1="238" y1="584" x2="238" y2="646"/><line class="c acc" x1="238" y1="615" x2="222" y2="615"/><line class="c acc" x1="222" y1="606" x2="222" y2="624"/>
+<polyline class="w" points="250,643 250,700"/>
+<circle class="dot" cx="250" cy="700" r="4"/>
+<text class="ref" x="238" y="528" text-anchor="end">R3</text>
+<text class="val" x="238" y="543" text-anchor="end">22Ω</text>
+<text class="ref acct" x="212" y="604" text-anchor="end">S2</text>
+<text class="val acct" x="212" y="619" text-anchor="end">EASY</text>
+<text class="val acct" x="212" y="633" text-anchor="end">BUTTON</text>
+<line class="c" x1="305" y1="585" x2="335" y2="585"/>
+<path class="c" d="M305 600 Q320 592 335 600"/>
+<text class="plus" x="298" y="581" text-anchor="middle">+</text>
+<polyline class="w" points="320,596 320,700"/>
+<circle class="dot" cx="320" cy="700" r="4"/>
+<text class="ref" x="342" y="588" text-anchor="start">C1</text>
+<text class="val" x="342" y="603" text-anchor="start">220µF</text>
+<rect class="ic" x="400" y="240" width="120" height="200" rx="3"/>
+<text class="icname" x="460.0" y="336.0" text-anchor="middle">U1</text>
+<text class="icpart" x="460.0" y="353.0" text-anchor="middle">555</text>
+<text class="pin" x="435" y="234" text-anchor="start">8</text>
+<text class="pfn" x="430" y="256" text-anchor="middle">VCC</text>
+<text class="pin" x="495" y="234" text-anchor="start">4</text>
+<text class="pfn" x="490" y="256" text-anchor="middle">RST</text>
+<text class="pin" x="394" y="295" text-anchor="end">6</text>
+<text class="pfn" x="407" y="304" text-anchor="start">THR</text>
+<text class="pin" x="394" y="335" text-anchor="end">2</text>
+<text class="pfn" x="407" y="344" text-anchor="start">TRIG</text>
+<text class="pin" x="394" y="385" text-anchor="end">7</text>
+<text class="pfn" x="407" y="394" text-anchor="start">DIS</text>
+<text class="pin" x="526" y="335" text-anchor="start">3</text>
+<text class="pfn" x="513" y="344" text-anchor="end">OUT</text>
+<text class="pin" x="435" y="455" text-anchor="start">1</text>
+<text class="pfn" x="430" y="432" text-anchor="middle">GND</text>
+<text class="pin" x="495" y="455" text-anchor="start">5</text>
+<text class="pfn" x="490" y="432" text-anchor="middle">CV</text>
+<polyline class="w" points="380,390 400,390"/>
+<path class="c" d="M374 384 l12 12 M386 384 l-12 12"/>
+<text class="pfn" x="370" y="412" text-anchor="end">n/c</text>
+<polyline class="w" points="430,70 430,240"/>
+<circle class="dot" cx="430" cy="70" r="4"/>
+<polyline class="w" points="490,70 490,240"/>
+<circle class="dot" cx="490" cy="70" r="4"/>
+<polyline class="w" points="430,440 430,700"/>
+<circle class="dot" cx="430" cy="700" r="4"/>
+<polyline class="w" points="490,440 490,560"/>
+<line class="c" x1="475" y1="560" x2="505" y2="560"/><line class="c" x1="475" y1="570" x2="505" y2="570"/>
+<polyline class="w" points="490,570 490,700"/>
+<circle class="dot" cx="490" cy="700" r="4"/>
+<text class="ref" x="514" y="563" text-anchor="start">C2</text>
+<text class="val" x="514" y="578" text-anchor="start">10nF</text>
+<polyline class="w" points="520,340 560,340"/>
+<polyline class="c" points="560.0,340.0 565.0,332.0 575.0,348.0 585.0,332.0 595.0,348.0 605.0,332.0 615.0,348.0 620.0,340.0"/>
+<polyline class="w" points="620,340 650,340"/>
+<text class="ref" x="590" y="312" text-anchor="middle">R4</text>
+<text class="val" x="590" y="327" text-anchor="middle">10k</text>
+<polyline class="w" points="690,70 690,110"/>
+<polyline class="c" points="690.0,110.0 698.0,115.0 682.0,125.0 698.0,135.0 682.0,145.0 698.0,155.0 682.0,165.0 690.0,170.0"/>
+<polyline class="w" points="690,170 690,310"/>
+<circle class="dot" cx="690" cy="70" r="4"/>
+<text class="ref" x="676" y="138" text-anchor="end">R5</text>
+<text class="val" x="676" y="153" text-anchor="end">100k</text>
+<circle class="ic" cx="675" cy="340" r="24"/>
+<line class="c" x1="650" y1="340" x2="667" y2="340"/>
+<line class="c thick" x1="667" y1="326" x2="667" y2="354"/>
+<polyline class="c" points="667,334 690,322 690,310"/>
+<polyline class="c" points="667,346 690,358 690,370"/>
+<polygon class="fill" points="688.0,357.0 678.2,356.4 681.9,349.3"/>
+<text class="ref" x="702" y="420" text-anchor="start">Q1</text>
+<text class="val" x="702" y="435" text-anchor="start">2N3904</text>
+<polyline class="w" points="690,370 690,700"/>
+<circle class="dot" cx="690" cy="700" r="4"/>
+<circle class="dot" cx="690" cy="210" r="4"/>
+<path class="w" d="M690 210 H782 A8 8 0 0 1 798 210 H890 V240"/>
+<text class="net" x="845" y="202" text-anchor="middle">ALARM</text>
+<polyline class="w" points="790,70 790,110"/>
+<polyline class="c" points="790.0,110.0 798.0,115.0 782.0,125.0 798.0,135.0 782.0,145.0 798.0,155.0 782.0,165.0 790.0,170.0"/>
+<polyline class="w" points="790,170 790,300"/>
+<circle class="dot" cx="790" cy="70" r="4"/>
+<polyline class="c" points="790.0,300.0 798.0,303.8 782.0,311.2 798.0,318.8 782.0,326.2 798.0,333.8 782.0,341.2 790.0,345.0"/>
+<polyline class="w" points="790,345 790,560"/>
+<line class="c" x1="775" y1="560" x2="805" y2="560"/><line class="c" x1="775" y1="570" x2="805" y2="570"/>
+<polyline class="w" points="790,570 790,700"/>
+<circle class="dot" cx="790" cy="700" r="4"/>
+<polyline class="w" points="790,280 860,280"/>
+<circle class="dot" cx="790" cy="280" r="4"/>
+<polyline class="w" points="790,360 860,360"/>
+<circle class="dot" cx="790" cy="360" r="4"/>
+<polyline class="w" points="790,395 860,395"/>
+<circle class="dot" cx="790" cy="395" r="4"/>
+<text class="ref" x="778" y="138" text-anchor="end">R6</text>
+<text class="val" x="778" y="153" text-anchor="end">1k</text>
+<text class="ref" x="778" y="318" text-anchor="end">R7</text>
+<text class="val" x="778" y="333" text-anchor="end">10k</text>
+<text class="ref" x="768" y="563" text-anchor="end">C3</text>
+<text class="val" x="768" y="578" text-anchor="end">47nF</text>
+<rect class="ic" x="860" y="240" width="120" height="200" rx="3"/>
+<text class="icname" x="920.0" y="336.0" text-anchor="middle">U2</text>
+<text class="icpart" x="920.0" y="353.0" text-anchor="middle">555</text>
+<text class="pin" x="895" y="234" text-anchor="start">4</text>
+<text class="pfn" x="890" y="256" text-anchor="middle">RST</text>
+<text class="pin" x="955" y="234" text-anchor="start">8</text>
+<text class="pfn" x="950" y="256" text-anchor="middle">VCC</text>
+<text class="pin" x="854" y="275" text-anchor="end">7</text>
+<text class="pfn" x="867" y="284" text-anchor="start">DIS</text>
+<text class="pin" x="854" y="355" text-anchor="end">6</text>
+<text class="pfn" x="867" y="364" text-anchor="start">THR</text>
+<text class="pin" x="854" y="390" text-anchor="end">2</text>
+<text class="pfn" x="867" y="399" text-anchor="start">TRIG</text>
+<text class="pin" x="986" y="335" text-anchor="start">3</text>
+<text class="pfn" x="973" y="344" text-anchor="end">OUT</text>
+<text class="pin" x="895" y="455" text-anchor="start">1</text>
+<text class="pfn" x="890" y="432" text-anchor="middle">GND</text>
+<text class="pin" x="955" y="455" text-anchor="start">5</text>
+<text class="pfn" x="950" y="432" text-anchor="middle">CV</text>
+<polyline class="w" points="950,70 950,240"/>
+<circle class="dot" cx="950" cy="70" r="4"/>
+<polyline class="w" points="890,440 890,700"/>
+<circle class="dot" cx="890" cy="700" r="4"/>
+<polyline class="w" points="950,440 950,560"/>
+<line class="c" x1="935" y1="560" x2="965" y2="560"/><line class="c" x1="935" y1="570" x2="965" y2="570"/>
+<polyline class="w" points="950,570 950,700"/>
+<circle class="dot" cx="950" cy="700" r="4"/>
+<text class="ref" x="974" y="563" text-anchor="start">C4</text>
+<text class="val" x="974" y="578" text-anchor="start">10nF</text>
+<polyline class="w" points="980,340 1010,340"/>
+<polyline class="c" points="1010.0,340.0 1015.0,332.0 1025.0,348.0 1035.0,332.0 1045.0,348.0 1055.0,332.0 1065.0,348.0 1070.0,340.0"/>
+<polyline class="w" points="1070,340 1100,340"/>
+<text class="ref" x="1040" y="312" text-anchor="middle">R8</text>
+<text class="val" x="1040" y="327" text-anchor="middle">680Ω</text>
+<circle class="ic" cx="1125" cy="340" r="24"/>
+<line class="c" x1="1100" y1="340" x2="1117" y2="340"/>
+<line class="c thick" x1="1117" y1="326" x2="1117" y2="354"/>
+<polyline class="c" points="1117,334 1140,322 1140,310"/>
+<polyline class="c" points="1117,346 1140,358 1140,370"/>
+<polygon class="fill" points="1138.0,357.0 1128.2,356.4 1131.9,349.3"/>
+<text class="ref" x="1152" y="420" text-anchor="start">Q2</text>
+<text class="val" x="1152" y="435" text-anchor="start">2N2222A</text>
+<polyline class="w" points="1140,370 1140,700"/>
+<rect class="ic" x="1132" y="122" width="16" height="36"/><polygon class="ic" points="1148,122 1172,102 1172,178 1148,158"/>
+<polyline class="w" points="1140,158 1140,200"/>
+<polyline class="c" points="1140.0,200.0 1148.0,205.0 1132.0,215.0 1148.0,225.0 1132.0,235.0 1148.0,245.0 1132.0,255.0 1140.0,260.0"/>
+<polyline class="w" points="1140,260 1140,310"/>
+<circle class="dot" cx="1140" cy="95" r="4"/>
+<circle class="dot" cx="1140" cy="185" r="4"/>
+<polyline class="w" points="1140,95 1220,95 1220,132"/>
+<polyline class="w" points="1220,150 1220,185 1140,185"/>
+<polygon class="ic" points="1210,150 1230,150 1220,133"/><line class="c thick" x1="1209" y1="132" x2="1231" y2="132"/>
+<text class="ref" x="1236" y="138" text-anchor="start">D1</text>
+<text class="val" x="1236" y="153" text-anchor="start">1N4148</text>
+<text class="ref" x="1120" y="136" text-anchor="end">LS1</text>
+<text class="val" x="1120" y="151" text-anchor="end">8Ω speaker</text>
+<text class="ref" x="1128" y="226" text-anchor="end">R9</text>
+<text class="val" x="1128" y="241" text-anchor="end">10–47Ω</text>
+<text class="cap" x="110" y="738" text-anchor="middle">POWER</text>
+<text class="cap" x="380" y="738" text-anchor="middle">1 · 60-SECOND TIMER</text>
+<text class="cap" x="660" y="738" text-anchor="middle">2 · INVERTER</text>
+<text class="cap" x="880" y="738" text-anchor="middle">3 · TONE</text>
+<text class="cap" x="1170" y="738" text-anchor="middle">4 · SPEAKER DRIVER</text></svg>
